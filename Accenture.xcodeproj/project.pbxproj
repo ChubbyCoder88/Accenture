@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3453C524262ED6730062692D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C523262ED6730062692D /* AppDelegate.swift */; };
+		3453C526262ED6730062692D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C525262ED6730062692D /* SceneDelegate.swift */; };
+		3453C528262ED6730062692D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C527262ED6730062692D /* ViewController.swift */; };
+		3453C52B262ED6730062692D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3453C529262ED6730062692D /* Main.storyboard */; };
+		3453C52E262ED6730062692D /* Accenture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3453C52C262ED6730062692D /* Accenture.xcdatamodeld */; };
+		3453C530262ED6750062692D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3453C52F262ED6750062692D /* Assets.xcassets */; };
+		3453C533262ED6750062692D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3453C531262ED6750062692D /* LaunchScreen.storyboard */; };
+		3453C53E262ED6750062692D /* AccentureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C53D262ED6750062692D /* AccentureTests.swift */; };
+		3453C549262ED6750062692D /* AccentureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C548262ED6750062692D /* AccentureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3453C53A262ED6750062692D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3453C518262ED6730062692D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3453C51F262ED6730062692D;
+			remoteInfo = Accenture;
+		};
+		3453C545262ED6750062692D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3453C518262ED6730062692D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3453C51F262ED6730062692D;
+			remoteInfo = Accenture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3453C520262ED6730062692D /* Accenture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accenture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3453C523262ED6730062692D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3453C525262ED6730062692D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3453C527262ED6730062692D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3453C52A262ED6730062692D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3453C52D262ED6730062692D /* Accenture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Accenture.xcdatamodel; sourceTree = "<group>"; };
+		3453C52F262ED6750062692D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3453C532262ED6750062692D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3453C534262ED6750062692D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3453C539262ED6750062692D /* AccentureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccentureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3453C53D262ED6750062692D /* AccentureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentureTests.swift; sourceTree = "<group>"; };
+		3453C53F262ED6750062692D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3453C544262ED6750062692D /* AccentureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccentureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3453C548262ED6750062692D /* AccentureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentureUITests.swift; sourceTree = "<group>"; };
+		3453C54A262ED6750062692D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3453C51D262ED6730062692D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3453C536262ED6750062692D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3453C541262ED6750062692D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3453C517262ED6730062692D = {
+			isa = PBXGroup;
+			children = (
+				3453C522262ED6730062692D /* Accenture */,
+				3453C53C262ED6750062692D /* AccentureTests */,
+				3453C547262ED6750062692D /* AccentureUITests */,
+				3453C521262ED6730062692D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3453C521262ED6730062692D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3453C520262ED6730062692D /* Accenture.app */,
+				3453C539262ED6750062692D /* AccentureTests.xctest */,
+				3453C544262ED6750062692D /* AccentureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3453C522262ED6730062692D /* Accenture */ = {
+			isa = PBXGroup;
+			children = (
+				3453C523262ED6730062692D /* AppDelegate.swift */,
+				3453C525262ED6730062692D /* SceneDelegate.swift */,
+				3453C527262ED6730062692D /* ViewController.swift */,
+				3453C529262ED6730062692D /* Main.storyboard */,
+				3453C52F262ED6750062692D /* Assets.xcassets */,
+				3453C531262ED6750062692D /* LaunchScreen.storyboard */,
+				3453C534262ED6750062692D /* Info.plist */,
+				3453C52C262ED6730062692D /* Accenture.xcdatamodeld */,
+			);
+			path = Accenture;
+			sourceTree = "<group>";
+		};
+		3453C53C262ED6750062692D /* AccentureTests */ = {
+			isa = PBXGroup;
+			children = (
+				3453C53D262ED6750062692D /* AccentureTests.swift */,
+				3453C53F262ED6750062692D /* Info.plist */,
+			);
+			path = AccentureTests;
+			sourceTree = "<group>";
+		};
+		3453C547262ED6750062692D /* AccentureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3453C548262ED6750062692D /* AccentureUITests.swift */,
+				3453C54A262ED6750062692D /* Info.plist */,
+			);
+			path = AccentureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3453C51F262ED6730062692D /* Accenture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3453C54D262ED6750062692D /* Build configuration list for PBXNativeTarget "Accenture" */;
+			buildPhases = (
+				3453C51C262ED6730062692D /* Sources */,
+				3453C51D262ED6730062692D /* Frameworks */,
+				3453C51E262ED6730062692D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Accenture;
+			productName = Accenture;
+			productReference = 3453C520262ED6730062692D /* Accenture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3453C538262ED6750062692D /* AccentureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3453C550262ED6750062692D /* Build configuration list for PBXNativeTarget "AccentureTests" */;
+			buildPhases = (
+				3453C535262ED6750062692D /* Sources */,
+				3453C536262ED6750062692D /* Frameworks */,
+				3453C537262ED6750062692D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3453C53B262ED6750062692D /* PBXTargetDependency */,
+			);
+			name = AccentureTests;
+			productName = AccentureTests;
+			productReference = 3453C539262ED6750062692D /* AccentureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3453C543262ED6750062692D /* AccentureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3453C553262ED6750062692D /* Build configuration list for PBXNativeTarget "AccentureUITests" */;
+			buildPhases = (
+				3453C540262ED6750062692D /* Sources */,
+				3453C541262ED6750062692D /* Frameworks */,
+				3453C542262ED6750062692D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3453C546262ED6750062692D /* PBXTargetDependency */,
+			);
+			name = AccentureUITests;
+			productName = AccentureUITests;
+			productReference = 3453C544262ED6750062692D /* AccentureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3453C518262ED6730062692D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					3453C51F262ED6730062692D = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					3453C538262ED6750062692D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3453C51F262ED6730062692D;
+					};
+					3453C543262ED6750062692D = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 3453C51F262ED6730062692D;
+					};
+				};
+			};
+			buildConfigurationList = 3453C51B262ED6730062692D /* Build configuration list for PBXProject "Accenture" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3453C517262ED6730062692D;
+			productRefGroup = 3453C521262ED6730062692D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3453C51F262ED6730062692D /* Accenture */,
+				3453C538262ED6750062692D /* AccentureTests */,
+				3453C543262ED6750062692D /* AccentureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3453C51E262ED6730062692D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3453C533262ED6750062692D /* LaunchScreen.storyboard in Resources */,
+				3453C530262ED6750062692D /* Assets.xcassets in Resources */,
+				3453C52B262ED6730062692D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3453C537262ED6750062692D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3453C542262ED6750062692D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3453C51C262ED6730062692D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3453C52E262ED6730062692D /* Accenture.xcdatamodeld in Sources */,
+				3453C528262ED6730062692D /* ViewController.swift in Sources */,
+				3453C524262ED6730062692D /* AppDelegate.swift in Sources */,
+				3453C526262ED6730062692D /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3453C535262ED6750062692D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3453C53E262ED6750062692D /* AccentureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3453C540262ED6750062692D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3453C549262ED6750062692D /* AccentureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3453C53B262ED6750062692D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3453C51F262ED6730062692D /* Accenture */;
+			targetProxy = 3453C53A262ED6750062692D /* PBXContainerItemProxy */;
+		};
+		3453C546262ED6750062692D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3453C51F262ED6730062692D /* Accenture */;
+			targetProxy = 3453C545262ED6750062692D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3453C529262ED6730062692D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3453C52A262ED6730062692D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3453C531262ED6750062692D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3453C532262ED6750062692D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3453C54B262ED6750062692D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3453C54C262ED6750062692D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3453C54E262ED6750062692D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83C6R68V48;
+				INFOPLIST_FILE = Accenture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Accenture.Accenture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3453C54F262ED6750062692D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83C6R68V48;
+				INFOPLIST_FILE = Accenture/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Accenture.Accenture;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3453C551262ED6750062692D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83C6R68V48;
+				INFOPLIST_FILE = AccentureTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Accenture.AccentureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accenture.app/Accenture";
+			};
+			name = Debug;
+		};
+		3453C552262ED6750062692D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83C6R68V48;
+				INFOPLIST_FILE = AccentureTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Accenture.AccentureTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Accenture.app/Accenture";
+			};
+			name = Release;
+		};
+		3453C554262ED6750062692D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83C6R68V48;
+				INFOPLIST_FILE = AccentureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Accenture.AccentureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Accenture;
+			};
+			name = Debug;
+		};
+		3453C555262ED6750062692D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83C6R68V48;
+				INFOPLIST_FILE = AccentureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Accenture.AccentureUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Accenture;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3453C51B262ED6730062692D /* Build configuration list for PBXProject "Accenture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3453C54B262ED6750062692D /* Debug */,
+				3453C54C262ED6750062692D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3453C54D262ED6750062692D /* Build configuration list for PBXNativeTarget "Accenture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3453C54E262ED6750062692D /* Debug */,
+				3453C54F262ED6750062692D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3453C550262ED6750062692D /* Build configuration list for PBXNativeTarget "AccentureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3453C551262ED6750062692D /* Debug */,
+				3453C552262ED6750062692D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3453C553262ED6750062692D /* Build configuration list for PBXNativeTarget "AccentureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3453C554262ED6750062692D /* Debug */,
+				3453C555262ED6750062692D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3453C52C262ED6730062692D /* Accenture.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3453C52D262ED6730062692D /* Accenture.xcdatamodel */,
+			);
+			currentVersion = 3453C52D262ED6730062692D /* Accenture.xcdatamodel */;
+			path = Accenture.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3453C518262ED6730062692D /* Project object */;
+}
