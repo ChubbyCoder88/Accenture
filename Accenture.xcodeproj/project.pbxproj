@@ -9,13 +9,26 @@
 /* Begin PBXBuildFile section */
 		3453C524262ED6730062692D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C523262ED6730062692D /* AppDelegate.swift */; };
 		3453C526262ED6730062692D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C525262ED6730062692D /* SceneDelegate.swift */; };
-		3453C528262ED6730062692D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C527262ED6730062692D /* ViewController.swift */; };
 		3453C52B262ED6730062692D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3453C529262ED6730062692D /* Main.storyboard */; };
 		3453C52E262ED6730062692D /* Accenture.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3453C52C262ED6730062692D /* Accenture.xcdatamodeld */; };
 		3453C530262ED6750062692D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3453C52F262ED6750062692D /* Assets.xcassets */; };
 		3453C533262ED6750062692D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3453C531262ED6750062692D /* LaunchScreen.storyboard */; };
 		3453C53E262ED6750062692D /* AccentureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C53D262ED6750062692D /* AccentureTests.swift */; };
 		3453C549262ED6750062692D /* AccentureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C548262ED6750062692D /* AccentureUITests.swift */; };
+		3453C55A262ED6FF0062692D /* AccountsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C559262ED6FF0062692D /* AccountsVC.swift */; };
+		3453C562262ED7B60062692D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C561262ED7B60062692D /* Extensions.swift */; };
+		3453C568262EDC510062692D /* AccountsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C566262EDC510062692D /* AccountsCell.swift */; };
+		3453C569262EDC510062692D /* AccountsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3453C567262EDC510062692D /* AccountsCell.xib */; };
+		3453C56F262EDD420062692D /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C56E262EDD420062692D /* Model.swift */; };
+		3453C57A262EDDA70062692D /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C579262EDDA70062692D /* ViewModel.swift */; };
+		3453C580262EDE070062692D /* HttpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C57F262EDE070062692D /* HttpClient.swift */; };
+		3453C592262EE0030062692D /* TransactionsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C591262EE0030062692D /* TransactionsVC.swift */; };
+		3453C59C262EF1DE0062692D /* TransactionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C59A262EF1DE0062692D /* TransactionsCell.swift */; };
+		3453C59D262EF1DE0062692D /* TransactionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3453C59B262EF1DE0062692D /* TransactionsCell.xib */; };
+		3453C5A4262EF23A0062692D /* TransactionsSmallCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C5A2262EF23A0062692D /* TransactionsSmallCell.swift */; };
+		3453C5A5262EF23A0062692D /* TransactionsSmallCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3453C5A3262EF23A0062692D /* TransactionsSmallCell.xib */; };
+		3453C5AB262EF2B50062692D /* CleanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C5AA262EF2B50062692D /* CleanData.swift */; };
+		3453C5C3262F17E90062692D /* Additional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3453C5C2262F17E90062692D /* Additional.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +52,6 @@
 		3453C520262ED6730062692D /* Accenture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Accenture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3453C523262ED6730062692D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3453C525262ED6730062692D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3453C527262ED6730062692D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3453C52A262ED6730062692D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3453C52D262ED6730062692D /* Accenture.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Accenture.xcdatamodel; sourceTree = "<group>"; };
 		3453C52F262ED6750062692D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +63,20 @@
 		3453C544262ED6750062692D /* AccentureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AccentureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3453C548262ED6750062692D /* AccentureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccentureUITests.swift; sourceTree = "<group>"; };
 		3453C54A262ED6750062692D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3453C559262ED6FF0062692D /* AccountsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsVC.swift; sourceTree = "<group>"; };
+		3453C561262ED7B60062692D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3453C566262EDC510062692D /* AccountsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountsCell.swift; sourceTree = "<group>"; };
+		3453C567262EDC510062692D /* AccountsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AccountsCell.xib; sourceTree = "<group>"; };
+		3453C56E262EDD420062692D /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		3453C579262EDDA70062692D /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		3453C57F262EDE070062692D /* HttpClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpClient.swift; sourceTree = "<group>"; };
+		3453C591262EE0030062692D /* TransactionsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsVC.swift; sourceTree = "<group>"; };
+		3453C59A262EF1DE0062692D /* TransactionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsCell.swift; sourceTree = "<group>"; };
+		3453C59B262EF1DE0062692D /* TransactionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsCell.xib; sourceTree = "<group>"; };
+		3453C5A2262EF23A0062692D /* TransactionsSmallCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsSmallCell.swift; sourceTree = "<group>"; };
+		3453C5A3262EF23A0062692D /* TransactionsSmallCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TransactionsSmallCell.xib; sourceTree = "<group>"; };
+		3453C5AA262EF2B50062692D /* CleanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleanData.swift; sourceTree = "<group>"; };
+		3453C5C2262F17E90062692D /* Additional.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Additional.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +129,13 @@
 			children = (
 				3453C523262ED6730062692D /* AppDelegate.swift */,
 				3453C525262ED6730062692D /* SceneDelegate.swift */,
-				3453C527262ED6730062692D /* ViewController.swift */,
+				3453C588262EDE490062692D /* Accounts */,
+				3453C58D262EDFE30062692D /* Transactions */,
+				3453C56D262EDD2C0062692D /* DataModels */,
+				3453C57E262EDDF10062692D /* HttpClient */,
+				3453C5A9262EF2A90062692D /* CleanData */,
+				3453C5C1262F17D00062692D /* Additional */,
+				3453C587262EDE2F0062692D /* Extensions */,
 				3453C529262ED6730062692D /* Main.storyboard */,
 				3453C52F262ED6750062692D /* Assets.xcassets */,
 				3453C531262ED6750062692D /* LaunchScreen.storyboard */,
@@ -129,6 +161,93 @@
 				3453C54A262ED6750062692D /* Info.plist */,
 			);
 			path = AccentureUITests;
+			sourceTree = "<group>";
+		};
+		3453C56D262EDD2C0062692D /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				3453C56E262EDD420062692D /* Model.swift */,
+				3453C579262EDDA70062692D /* ViewModel.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		3453C57E262EDDF10062692D /* HttpClient */ = {
+			isa = PBXGroup;
+			children = (
+				3453C57F262EDE070062692D /* HttpClient.swift */,
+			);
+			path = HttpClient;
+			sourceTree = "<group>";
+		};
+		3453C587262EDE2F0062692D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3453C561262ED7B60062692D /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3453C588262EDE490062692D /* Accounts */ = {
+			isa = PBXGroup;
+			children = (
+				3453C559262ED6FF0062692D /* AccountsVC.swift */,
+				3453C589262EDE570062692D /* AccountsCell */,
+			);
+			path = Accounts;
+			sourceTree = "<group>";
+		};
+		3453C589262EDE570062692D /* AccountsCell */ = {
+			isa = PBXGroup;
+			children = (
+				3453C566262EDC510062692D /* AccountsCell.swift */,
+				3453C567262EDC510062692D /* AccountsCell.xib */,
+			);
+			path = AccountsCell;
+			sourceTree = "<group>";
+		};
+		3453C58D262EDFE30062692D /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				3453C591262EE0030062692D /* TransactionsVC.swift */,
+				3453C599262EF1C00062692D /* TransactionsCell */,
+				3453C5A1262EF2210062692D /* TransactionsSmallCell */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		3453C599262EF1C00062692D /* TransactionsCell */ = {
+			isa = PBXGroup;
+			children = (
+				3453C59A262EF1DE0062692D /* TransactionsCell.swift */,
+				3453C59B262EF1DE0062692D /* TransactionsCell.xib */,
+			);
+			path = TransactionsCell;
+			sourceTree = "<group>";
+		};
+		3453C5A1262EF2210062692D /* TransactionsSmallCell */ = {
+			isa = PBXGroup;
+			children = (
+				3453C5A2262EF23A0062692D /* TransactionsSmallCell.swift */,
+				3453C5A3262EF23A0062692D /* TransactionsSmallCell.xib */,
+			);
+			path = TransactionsSmallCell;
+			sourceTree = "<group>";
+		};
+		3453C5A9262EF2A90062692D /* CleanData */ = {
+			isa = PBXGroup;
+			children = (
+				3453C5AA262EF2B50062692D /* CleanData.swift */,
+			);
+			path = CleanData;
+			sourceTree = "<group>";
+		};
+		3453C5C1262F17D00062692D /* Additional */ = {
+			isa = PBXGroup;
+			children = (
+				3453C5C2262F17E90062692D /* Additional.swift */,
+			);
+			path = Additional;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +354,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3453C533262ED6750062692D /* LaunchScreen.storyboard in Resources */,
+				3453C59D262EF1DE0062692D /* TransactionsCell.xib in Resources */,
+				3453C5A5262EF23A0062692D /* TransactionsSmallCell.xib in Resources */,
+				3453C569262EDC510062692D /* AccountsCell.xib in Resources */,
 				3453C530262ED6750062692D /* Assets.xcassets in Resources */,
 				3453C52B262ED6730062692D /* Main.storyboard in Resources */,
 			);
@@ -261,10 +383,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3453C56F262EDD420062692D /* Model.swift in Sources */,
+				3453C562262ED7B60062692D /* Extensions.swift in Sources */,
+				3453C568262EDC510062692D /* AccountsCell.swift in Sources */,
+				3453C55A262ED6FF0062692D /* AccountsVC.swift in Sources */,
+				3453C580262EDE070062692D /* HttpClient.swift in Sources */,
 				3453C52E262ED6730062692D /* Accenture.xcdatamodeld in Sources */,
-				3453C528262ED6730062692D /* ViewController.swift in Sources */,
+				3453C5C3262F17E90062692D /* Additional.swift in Sources */,
 				3453C524262ED6730062692D /* AppDelegate.swift in Sources */,
+				3453C57A262EDDA70062692D /* ViewModel.swift in Sources */,
+				3453C5A4262EF23A0062692D /* TransactionsSmallCell.swift in Sources */,
+				3453C59C262EF1DE0062692D /* TransactionsCell.swift in Sources */,
 				3453C526262ED6730062692D /* SceneDelegate.swift in Sources */,
+				3453C592262EE0030062692D /* TransactionsVC.swift in Sources */,
+				3453C5AB262EF2B50062692D /* CleanData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
