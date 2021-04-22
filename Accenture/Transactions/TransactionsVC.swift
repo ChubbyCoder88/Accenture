@@ -32,7 +32,7 @@ class TransactionsVC: UIViewController {
     }
 
     private var usersSubscriper: AnyCancellable?
-    private var traData2 = [TransactionsViewModel]()
+    private var traData = [TransactionsViewModel]()
     private func dataApiCall(id: String) {
          usersSubscriper = DataManagerTransactions(id: id).usersPublisher
             .sink(receiveCompletion: { [weak self] _ in }, receiveValue: { [weak self] (data) in
@@ -44,7 +44,7 @@ class TransactionsVC: UIViewController {
             try clean.refactorAndInsertIntoViewModel(data: data, completion: { [weak self] (result) in
             switch result {
                 case .failure(let error): print("error", error)
-                case .success(let data1): self?.traData2 = data1;
+                case .success(let data1): self?.traData = data1;
                     DispatchQueue.main.async {
                         self?.tableView.reloadData();
                         self?.tableView.tableFooterView = UIView()
@@ -55,8 +55,8 @@ class TransactionsVC: UIViewController {
 }
 extension TransactionsVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let data = traData2[indexPath.row]
-        if data.newDate == true {
+        let data = traData[indexPath.row]
+         if data.newDate == true {
             let cell = tableView.dequeueReusableCell(withIdentifier: "TransactionsCell", for: indexPath) as! TransactionsCell
                 cell.data = data
                 cell.selectionStyle = .none
@@ -69,9 +69,9 @@ extension TransactionsVC: UITableViewDelegate, UITableViewDataSource {
         }
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return traData2.count
+        return traData.count
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        if traData2[indexPath.row].newDate == true { return 100 } else { return 80 }
+        if traData[indexPath.row].newDate == true { return 100 } else { return 80 }
     }
 }

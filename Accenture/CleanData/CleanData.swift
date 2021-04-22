@@ -23,7 +23,7 @@ struct CleanData {
                             currentBalance = formattedNumber
                         }
                     }
-                // determine if red or blue color to be displayed
+           // Determine if red or blue color to be displayed
                     if currentBalanceA.contains("-") {
                         colorToUse = "red"
                     } else { colorToUse = "blue" }
@@ -42,8 +42,8 @@ struct CleanData {
                 var processStatus = ""; if let processStatusA = a.processingStatus { processStatus = processStatusA }
                 var desc = ""; if let descA = a.description { desc = descA }
 
-                // Date Mods
-                // INITIALLY WE JUST MAKE SURE THAT THERE IS A DATE ENTRY
+        // Date Mods
+        // INITIALLY WE JUST MAKE SURE THAT THERE IS A DATE ENTRY
                 var date = ""
                 if let dateA = a.date {
                     date = dateA
@@ -54,13 +54,12 @@ struct CleanData {
                     }
                 }
             }
-            //
         } else { throw DataError.noDataAvailable }
 
         // SORT DATA BY Date
              var sortedArray = traData.sorted(by: {$0.date > $1.date})
              if sortedArray.count < 1 { throw DataError.noDataAvailable }
-        // empty data
+        // empty traData
              traData = []
              var dateHoldingString = ""
              var newDate = false

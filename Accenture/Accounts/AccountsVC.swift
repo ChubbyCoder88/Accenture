@@ -41,7 +41,6 @@ class AccountsVC: UIViewController {
                 }
              }, receiveValue: { [weak self] (data) in
                 self?.refactorData(data: data)
-                print("data", data)
              })
     }
     func refactorData(data: AccountModel) {

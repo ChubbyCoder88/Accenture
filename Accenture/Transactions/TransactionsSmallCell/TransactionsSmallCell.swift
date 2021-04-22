@@ -12,6 +12,7 @@ class TransactionsSmallCell: UITableViewCell {
     @IBOutlet weak var amountLabel: UILabel!
     @IBOutlet weak var descLabel: UILabel!
     @IBOutlet weak var balanceLabel2: UILabel!
+    
     var data: TransactionsViewModel! {
         didSet {
             balanceLabel2.text = ""
